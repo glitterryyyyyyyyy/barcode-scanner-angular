@@ -1,0 +1,17 @@
+<div
+  style="width: 100%; max-width: 500px; margin: 0 auto; border: 2px dashed #888; padding: 10px;"
+>
+  <zxing-scanner
+    [formats]="allowedFormats"
+    [device]="selectedDevice"
+    [tryHarder]="true"
+    [autostart]="true"
+    [torch]="false"
+    [enable]="true"
+    (scanSuccess)="onCodeResult($event)"
+  ></zxing-scanner>
+</div>
+
+<p *ngIf="scannedResult">
+   Scanned Result: {{ scannedResult }}
+</p>
