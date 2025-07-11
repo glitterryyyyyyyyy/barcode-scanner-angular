@@ -21,7 +21,7 @@ Works best on your phone or Chrome with camera permissions allowed.
 If you want to try running it on your own:
 
 ```bash
-git clone https://github.com/glitterryyyyyyyyy/angular-barcode-scanner.git
+git clone https://github.com/glitterryyyyyyyyy/barcode-scanner-angular.git
 cd angular-barcode-scanner
 npm install
 ng serve
